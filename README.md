@@ -1,12 +1,25 @@
-# React + Vite
+# Ignite Feed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O Igniter Feed é um projeto prático desenvolvido no contexto do curso de React da Rocketseat, utilizando o Vite como ferramenta de build e desenvolvimento. A proposta do projeto é criar uma aplicação de feed de posts, onde os usuários podem visualizar, curtir e interagir com diferentes publicações. O principal objetivo é aprender a integrar conceitos de React com funcionalidades de estado, efeitos colaterais e manipulação de eventos.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React: Biblioteca JavaScript para construção de interfaces de usuário.
+- Vite: Ferramenta de build e desenvolvimento, escolhida pela sua velocidade e eficiência.
+- CSS: Estilização da aplicação utilizando CSS moderno.
+- Hooks do React: Uso de hooks como useState, useEffect, para gerenciar o estado da aplicação e efeitos colaterais.
 
-## Expanding the ESLint configuration
+# Dependências
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js LTS: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
+## Executando o projeto
+
+```shell
+  # Instalar dependências e executar o projeto
+  npm install && npm run dev
+  # ou
+  yarn install && yarn dev
+  # ou
+  pnpm install && pnpm dev
+```
